@@ -6,13 +6,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomePageComponent } from './welcomePage/welcomePage.component';
 import { RedComponent } from './red/red.component';
-import { YellowComponent } from './yellow/yellow.component';
 import { BlueComponent } from './blue/blue.component';
+import { EgDirectivesComponent } from './eg-directives/eg-directives.component';
 
 @NgModule({
   declarations: [
     AppComponent, 
-    WelcomePageComponent, RedComponent, YellowComponent, BlueComponent
+    WelcomePageComponent, 
+    RedComponent, 
+    BlueComponent, 
+    EgDirectivesComponent
   ],
   imports: [
     BrowserModule,

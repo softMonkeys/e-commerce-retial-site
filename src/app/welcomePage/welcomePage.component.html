@@ -1,1 +1,10 @@
-<h3>Welcome<h3>
+<div>
+    <label for="Fname">First Name: </label>
+    <input type="text" name="Fname" placeholder="First Name" [(ngModel)] = "name">
+
+    <p> {{ name }} </p>
+
+    <button [disabled]="isNameEmpty()" (click)="resetName()">Reset Name</button>
+
+
+</div>
